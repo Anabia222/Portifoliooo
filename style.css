@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #fff9c4;   /* amarelo claro e suave */
+  --cor-destaque: #ffe066;     /* amarelo pastel para destaque */
+  --cor-background: #fffde7;   /* amarelo bem clarinho para o fundo */
+  --cor-texto: #7c6f00;        /* amarelo escuro para textos */
+  --cor-te: #B7D9FF;
+} 
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--cor-background);
+}
+
+h1, h2, h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--cor-principal);
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+}
+
+.card-img-fixa {
+  height: 144px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: var(--cor-secundaria);
+  color: #7c6f00; /* texto amarelo escuro para contraste */
+}
+
+.card-title {
+  color: var(--cor-texto); /* Cor do título */
+}
+
+.card-text {
+  color: #7c6f00; /* Cor do texto */
+}
+
+.modal-content {
+  background-color: var(--cor-secundaria);
+  border-radius: 18px;
+  border: 2px solid var(--cor-texto);
+  color: #7c6f00;
+}
+
+.btn-link {
+  color: var(--cor-texto) !important;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.btn-link:hover, .btn-link:focus {
+  color: #bfa600 !important; /* amarelo mais escuro ao passar o mouse */
+  text-decoration: none;
+}
