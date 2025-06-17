@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="img/klein.png" alt="avatar gabriel" class="rounded-circle" width="150" height="150">
+        <p class="lead">Olá meu nome é Ana Beatriz</p>
+        <h1> Eu estudo grafite e artes.</h1>
+        <p>Sou um estudante do João XXIII, e estou criando meu próprio portifólio para divulgar e estudar programação em html.</p>
+        <h5>Estas obras sao todas minhas.</h5>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">DESENHOS</p>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">PYTHON</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row justify-content-center d-flex align-items-stretch">
+            <!-- Projeto 1  -->
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/papel.png" alt="desenho" class="card-img-top card-img-fixa">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Desenhos no papel</h5>
+                        <p class="card-text">Aqui estão algumas de obras de minha autoria no papel.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modall">
+                            Veja desenhos no papel.
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2  -->
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/color.png" class="card-img-top card-img-fixa" alt="imagen virtual">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Grafites no Digital</h5>
+                        <p class="card-text">Aqui estão algumas de obras de minha autoria no digital.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">
+                            Veja grafites no digitais.
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modall" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Meus desenhos no papel.</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/d.png" alt="desenhos de representatividade" class="img-fluid mb-2">
+                    <img src="img/o.png" alt="desenhos de representatividade" class="img-fluid mb-2">
+                    <img src="img/papel.png" alt="desenhos de representatividade" class="img-fluid mb-2">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Meus Grafites no digital.</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/dig.png" alt="desenhos de representatividade digital" class="img-fluid mb-2">
+                    <img src="img/gidi.png" alt="desenhos de representatividade" class="img-fluid mb-2">
+                    <img src="img/color.png" alt="desenhos de representatividade" class="img-fluid mb-2">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <p>gabrieljales2017@gmail.com</p>
+        <p class="text-center my-4">@Copyright 2025. Produzido por Gabriel Jales.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+</html>
